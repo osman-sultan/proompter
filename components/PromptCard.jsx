@@ -28,9 +28,9 @@ const PromptCard = ({ post, handleEdit, handleDelete, handleTagClick }) => {
 
   return (
     <div className="prompt_card">
-      <div className="flex w-full items-start justify-between gap-5">
+      <div className="flex w-full items-start justify-between gap-1 ">
         <div
-          className="flex flex-1 cursor-pointer flex-wrap items-center justify-start gap-3"
+          className="flex w-4/5 cursor-pointer flex-wrap items-center justify-start gap-3"
           onClick={handleProfileClick}
         >
           <Image
@@ -51,7 +51,7 @@ const PromptCard = ({ post, handleEdit, handleDelete, handleTagClick }) => {
           </div>
         </div>
 
-        <div className="copy_btn" onClick={handleCopy}>
+        <div className="copy_btn shrink-0" onClick={handleCopy}>
           <Image
             src={
               copied === post.prompt

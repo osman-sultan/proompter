@@ -123,7 +123,7 @@
 
 /* Feed Component */
 .feed {
-  @apply mx-auto mt-16 flex w-full max-w-xl flex-col items-center justify-center gap-2;
+  @apply mx-auto mt-16 flex w-full max-w-xl flex-col justify-center gap-2 md:items-center;
 }
 
 /* Form Component */
@@ -150,7 +150,7 @@
 
 /* PromptCard Component */
 .prompt_card {
-  @apply h-fit w-full flex-1 break-inside-avoid rounded-lg border border-gray-300 bg-white/20 bg-clip-padding px-6 py-6 pb-4 backdrop-blur-lg backdrop-filter md:w-[360px];
+  @apply h-fit w-full flex-1 break-inside-avoid rounded-lg border border-gray-300 bg-white/20 bg-clip-padding p-6 pb-4 backdrop-blur-lg backdrop-filter md:w-[360px];
 }
 
 .flex-center {
