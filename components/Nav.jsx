@@ -22,12 +22,13 @@ const Nav = () => {
     <nav className="flex-between mb-16 w-full pt-3">
       <Link href="/" className="flex-center flex gap-2">
         <Image
-          src="/assets/images/logo.png"
+          src="/assets/images/logo.svg"
           alt="proompter logo"
-          width={275}
-          height={62}
+          width={30}
+          height={30}
           className="object-contain"
         />
+        <p className="logo_text">Proompter</p>
       </Link>
 
       {/* Desktop nav */}
