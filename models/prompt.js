@@ -7,7 +7,7 @@ const PromptSchema = new Schema({
   },
   prompt: {
     type: String,
-    required: [true, "Prompt is requried."],
+    required: [true, "Prompt is required."],
   },
   tag: {
     type: String,
