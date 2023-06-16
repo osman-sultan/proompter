@@ -18,7 +18,7 @@ Proompter is an open-source platform designed to provide verbose fine-tuned, and
 
 ## Motivations
 
-The idea for Proompter (shout out Fireship.io) came from my growing interest in the LLMs that are becoming a big deal in the tech world, such as GPT, Bard, LLaMa, etc etc. As a uni student and and junior dev, ChatGPT was the most widely used tool within my network for pretty much everything, but I quickly realized that these models are waste of time without quality input. It's evident these models need good quality prompts to show their full potential, and that's where Proompter comes in - a place for anyone to share and find detailed prompts to fuel these models.
+The idea for Proompter (shout out [Fireship.io](https://fireship.io)) came from my growing interest in the LLMs that are becoming a big deal in the tech world, such as GPT, Bard, LLaMa, etc etc. As a uni student and and junior dev, ChatGPT was the most widely used tool within my network for pretty much everything, but I quickly realized that these models are waste of time without quality input. It's evident these models need good quality prompts to show their full potential, and that's where Proompter comes in - a place for anyone to share and find detailed prompts to fuel these models.
 
 Creating Proompter has been an awesome learning experience. I finally got my hands dirty with Nextjs v13, the thought of not having to create tedious MVC backend servers was super exciting to me lol. In terms of next steps, I want to implement these models myself with the OpenAI API and Langchain, you find some new projects utilizing this tech in my github soon :).
 
@@ -67,3 +67,5 @@ Some things the site still needs (in no particular order) for future development
 ---
 
 Thank you for your interest in Proompter! I welcome contributions and suggestions on how to make this platform better. Feel free to open an issue or submit a pull request.
+
+This project is inspired by Adrian Hajdin.
