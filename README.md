@@ -33,7 +33,7 @@ Creating Proompter has been an awesome learning experience. I finally got my han
 
 To set up the project locally, follow the steps below:
 
-1. Clone the repository to your local machine.
+1. Fork and clone the repository to your local machine.
 2. Install the necessary dependencies using `npm install`.
 3. Set up your `.env.local` file at the root of your project. This file will store all your environment variables.
 4. Run `npm run dev` to start the development server.
